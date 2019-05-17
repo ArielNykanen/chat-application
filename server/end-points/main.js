@@ -4,7 +4,7 @@ const usersCtrl = require('../controllers/users');
 
 router.get('/getUsers', usersCtrl.getUsers);
 
-// router.get('/chat', usersCtrl.getIndexPage);
+router.post('/sendMsg', usersCtrl.sendMsg);
 
 
 module.exports = router;
